@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Instagram Plugin</title>
+	<link rel="stylesheet" href="instaplugin.css" />
+</head>
+<body>
+
+	<div class="something instaplugin"></div><!-- /#insta -->
+	<div id="instafeed-y" class="instaplugin"></div><!-- /#insta -->
+
+    <script src="jquery-3.1.0.min.js"></script>
+	<script src="instaplugin.js"></script>
+
+	<script>
+		//image size- low_resolution, standard_resolution, thumbnail
+		//1979778883.8f30afd.d7ae9adbc4614fb491b0f90303bec751 //nillshomudro
+		//2070535567.a49315a.7e681503c94f4daeb5dbd8e7d594512e //softhopper
+		$('.something').instaplugin({
+			column: 10
+		});
+		$('#instafeed-y').instaplugin({
+			accessTocken: '1979778883.8f30afd.d7ae9adbc4614fb491b0f90303bec751',
+			getData: 'user',
+			user: 'nillshomudro',
+			showImage: 8,
+            column: 8,
+            margin: false,
+            padding: false,
+			imageSize: 'meduim',
+            hoverEffect: true
+		});
+	</script>
+</body>
+</html>

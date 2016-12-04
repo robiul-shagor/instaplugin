@@ -1,0 +1,187 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.instaplugin {
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+
+
+/* widget-instaplugin Template */
+.instaplugin ul.widget-instaplugin { 
+	list-style: none; 
+	margin-left: -2.5%;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.instaplugin ul.widget-instaplugin.no-margin { 
+	margin-left: 0; 
+}
+.instaplugin ul.widget-instaplugin li { 
+	display: inline-block; 
+	padding: 0; 
+	margin: 0 0 2.5% 2.5%; 
+	background: none; 
+	border: 0; 
+	vertical-align: top; 
+	box-shadow: none; 
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+}
+.instaplugin ul.widget-instaplugin.no-margin li { 
+	margin: 0; 
+}
+.instaplugin ul.widget-instaplugin li img { 
+	max-width: 100% !important; 
+	height: auto !important; 
+	margin: 0 !important; 
+	border: 0 !important; 
+	vertical-align: top; 
+}
+.instaplugin ul.widget-instaplugin li a { 
+	margin: 0;
+	padding: 0; 
+	border: 0; 
+	font-size: 100%; 
+	font: inherit; 
+	vertical-align: baseline; 
+}
+.instaplugin ul.widget-instaplugin .instagram_meta {
+	display: none;
+}
+.instaplugin ul.widget-instaplugin.fade .instagram_meta {
+	display: block;
+	color: #fff;
+}
+.instaplugin ul.widget-instaplugin.fade a {
+	color: inherit;
+}
+.instaplugin ul.widget-instaplugin.fade li {
+	position: relative;
+}
+.instaplugin ul.widget-instaplugin.fade li .instagram_meta {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	background: rgba(0,0,0,0.5);
+}
+.instaplugin ul.widget-instaplugin.fade li:hover .instagram_meta {
+	opacity: 1;
+}
+.instaplugin ul.widget-instaplugin.add-padding li {
+	padding: 4px;
+}
+.instaplugin ul.widget-instaplugin.fade.add-padding li .instagram_meta {
+	left: 4px;
+	right: 4px;
+	top: 4px;
+	bottom: 4px;
+}
+.instaplugin ul.widget-instaplugin.col-no-1 li { 
+	width: 97.5% !important; 
+}   /* this value + 2.5 should = 100% */
+.instaplugin ul.widget-instaplugin.col-no-2 li { 
+	width: 47.5% !important; 
+}   /* this value + 2.5 should = 50% */
+.instaplugin ul.widget-instaplugin.col-no-3 li { 
+	width: 30.83% !important; 
+}  /* this value + 2.5 should = 33% */
+.instaplugin ul.widget-instaplugin.col-no-4 li { 
+	width: 22.5%  !important; 
+}   /* this value + 2.5 should = 25% */
+.instaplugin ul.widget-instaplugin.col-no-5 li { 
+	width: 17.5%  !important; 
+}   /* this value + 2.5 should = 20% */
+.instaplugin ul.widget-instaplugin.col-no-6 li { 
+	width: 14.17% !important; 
+}  /* this value + 2.5 should = 16.66% */
+.instaplugin ul.widget-instaplugin.col-no-7 li { 
+	width: 11.78% !important; 
+}  /* this value + 2.5 should = 14.28% */
+.instaplugin ul.widget-instaplugin.col-no-8 li { 
+	width: 10% !important; 
+}   /* this value + 2.5 should = 12.5% */
+.instaplugin ul.widget-instaplugin.col-no-9 li { 
+	width: 8.61% !important; 
+}   /* this value + 2.5 should = 11.11% */
+.instaplugin ul.widget-instaplugin.col-no-10 li { 
+	width: 7.5% !important; 
+}   /* this value + 2.5 should = 10% */
+
+.instaplugin ul.widget-instaplugin.no-margin.col-no-1 li { 
+	width: 100% !important; 
+} 
+.instaplugin ul.widget-instaplugin.no-margin.col-no-2 li { 
+	width: 50% !important; 
+}   
+.instaplugin ul.widget-instaplugin.no-margin.col-no-3 li { 
+	width: 33.33% !important; 
+} 
+.instaplugin ul.widget-instaplugin.no-margin.col-no-4 li { 
+	width: 25% !important; 
+}   
+.instaplugin ul.widget-instaplugin.no-margin.col-no-5 li { 
+	width: 20% !important; 
+}   
+.instaplugin ul.widget-instaplugin.no-margin.col-no-6 li { 
+	width: 16.66% !important; 
+}
+.instaplugin ul.widget-instaplugin.no-margin.col-no-7 li { 
+	width: 14.28% !important; 
+} 
+.instaplugin ul.widget-instaplugin.no-margin.col-no-8 li { 
+	width: 12.5% !important; 
+} 
+.instaplugin ul.widget-instaplugin.no-margin.col-no-9 li { 
+	width: 11.11% !important; 
+}
+.instaplugin ul.widget-instaplugin.no-margin.col-no-10 li { 
+	width: 10% !important; 
+} 
+
+@media all and (max-width: 640px){
+  /* Make 3-6 cols into 2 col */
+  .instaplugin ul.widget-instaplugin.col-no-3 li,
+  .instaplugin ul.widget-instaplugin.col-no-4 li,
+  .instaplugin ul.widget-instaplugin.col-no-5 li,
+  .instaplugin ul.widget-instaplugin.col-no-6 li{
+    width: 47.5% !important;
+  }
+  /* Make 7-10 cols into 4 col */
+  .instaplugin ul.widget-instaplugin.col-no-7 li,
+  .instaplugin ul.widget-instaplugin.col-no-8 li,
+  .instaplugin ul.widget-instaplugin.col-no-9 li,
+  .instaplugin ul.widget-instaplugin.col-no-10 li{
+    width: 22.5% !important;
+  }
+
+  /* Make 3-6 cols into 2 col */
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-3 li,
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-4 li,
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-5 li,
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-6 li{
+    width: 50% !important;
+  }
+  /* Make 7-10 cols into 4 col */
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-7 li,
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-8 li,
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-9 li,
+  .instaplugin ul.widget-instaplugin.no-margin.col-no-10 li{
+    width: 25% !important;
+  }
+
+}
+@media all and (max-width: 480px){
+	.instaplugin ul.widget-instaplugin li {
+		width: 100% !important; /* over-ride all li styles */
+ 	}	
+}
+
