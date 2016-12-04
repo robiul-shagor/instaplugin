@@ -1,0 +1,1 @@
+# Instaplugin- A jQuery Instagram feed loader. You can use this plugin to intregate your instagram photo on your website.
